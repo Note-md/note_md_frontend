@@ -1,0 +1,14 @@
+/* Grid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dynamic columns with minimum width of 200px */
+    grid-gap: 40px; /* Gap between grid items */
+    padding: 40px; /* Padding for the grid container */
+  }
+  
+  .grid-item {
+    background-color: #f2f2f2; /* Background color for grid items */
+    padding: 20px; /* Padding for grid items */
+    text-align: center;
+    border: 1px solid #ccc; /* Border for grid items */
+  }

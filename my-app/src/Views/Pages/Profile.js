@@ -1,12 +1,13 @@
 import React from 'react';
-import '../Css/Profile';
-import Footer from '../../Shared/footer';
+import Footer from './Footer';
 import Header from '../../Shared/Header.Js';
+import ProfileBtn from  '../Buttons/ProfileBtn'
 
 const Home = () => {
   return (
     <div>
       <Header></Header>
+      <ProfileBtn></ProfileBtn>
       <h1>Edit your profile</h1>
       <button class="profile-button">Profile</button>
       <form method="post" action="/">

@@ -1,0 +1,10 @@
+.rounded-icon {
+    width: 50px; /* Set the width and height to create a circular shape */
+    height: 50px;
+    border-radius: 50%; /* Make the shape circular with border-radius */
+    background-color: #f3ebe3; /* Background color for the rounded icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Icon color */
+  }
