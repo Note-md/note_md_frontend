@@ -1,0 +1,17 @@
+.profile-button {
+    background-color: #f3ebe3;
+    border: none;
+    color: #000;
+    width: 100px; /* Set the width and height to create a circular shape */
+    height: 100px;
+    border-radius: 50%; /* Makes the button circular */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Add hover effect if desired */
+  .profile-button:hover {
+    background-color: #ddd;
+  }
+  
