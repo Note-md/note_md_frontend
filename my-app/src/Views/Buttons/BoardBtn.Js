@@ -5,7 +5,7 @@ import './BoardButton.css'; // Import the CSS file for styling (adjust the path 
 const BoardBtn = ({ label, onClick }) => {
   return (
     <button className="board-button" onClick={onClick}>
-      {label}
+      {<div>Board</div>}
     </button>
   );
 };
